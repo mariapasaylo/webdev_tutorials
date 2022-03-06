@@ -26,8 +26,13 @@
 	&__links{
 		a { 
 		font-size: small; /*14px/16=.875*/
-		
+		color: $grayishBlue;
 		}
 		
+	}
+	
+	&__cta{
+		font-size: $small;
+		color: $white;
 	}
 }
