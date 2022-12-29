@@ -5,12 +5,13 @@
         @include breakpoint-up(large){
             display: flex;
             align-items: center;
+            z-index: -1 ; //This is so that the menu shows up on top of all elements
         }
     }
     
 
     &__image{
-        position:relative;
+        position: relative;
         background-image: url("/Users/Maria Nicos/OneDrive/Desktop/My_Projects/Webdev/Bankingwebsite_tutorial/images/bg-intro-mobile.svg");
         background-size: cover;
         background-repeat: no-repeat;
@@ -57,6 +58,8 @@
             background-size: 93%;
             background-repeat: no-repeat;
             background-position: center bottom;
+            //z-index: -3 ; //This is so that the image stays behind
+
             
             @include breakpoint-up(medium){
                 background-size: 52%;
@@ -80,6 +83,7 @@
             flex: 2;
             order: 1;
             text-align: left;
+            padding-left: 1.875rem; //added to have space on left for smaller monitor
         }
         h1{
             font-weight: 300;

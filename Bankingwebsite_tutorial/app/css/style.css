@@ -208,6 +208,7 @@ button:hover, .button:hover {
   padding: 1.625rem;
   margin: 0px 1.5rem;
   margin-top: 1.5rem;
+  z-index: 1;
 }
 .header__menu a {
   display: block;
@@ -251,6 +252,7 @@ button:hover, .button:hover {
   .hero .container {
     display: flex;
     align-items: center;
+    z-index: -1;
   }
 }
 .hero__image {
@@ -321,6 +323,7 @@ button:hover, .button:hover {
     flex: 2;
     order: 1;
     text-align: left;
+    padding-left: 1.875rem;
   }
 }
 .hero__text h1 {
